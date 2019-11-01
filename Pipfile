@@ -9,6 +9,7 @@ verify_ssl = true
 flask = "*"
 flask-restful = "*"
 flask-cors = "*"
+feedparser = {git = "https://github.com/ChanceDurr/feedparser"}
 psycopg2-binary = "*"
 requests = "*"
 pandas = "*"
