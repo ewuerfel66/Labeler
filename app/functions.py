@@ -128,8 +128,8 @@ def label_fires(df):
     labels = []
     
     # Get lats and lons from df
-    lats = df['latitude'].tolist()
-    lons = df['longitude'].tolist()
+    lats = df['lat'].tolist()
+    lons = df['lon'].tolist()
     
     # Pull confirmed fires
     fires = fires_list()
