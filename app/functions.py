@@ -16,6 +16,7 @@ from math import radians, cos, sin, asin, sqrt
 from sklearn.cluster import DBSCAN
 from geopy.distance import great_circle
 from shapely.geometry import MultiPoint
+import feedparser
 
 # Functions 
 def get_weather(lat, lon):
