@@ -8,6 +8,8 @@ import urllib.parse as up
 import datetime
 import os
 
+import feedparser
+
 # Get the database url from environment variables
 db_url = os.environ.get('DB_URL')
 
