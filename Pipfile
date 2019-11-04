@@ -16,7 +16,7 @@ geopy = "*"
 numpy = "*"
 scikit-learn = "*"
 shapely = "*"
-feedparser = {git = "https://github.com/ChanceDurr/feedparser"}
+
 
 [requires]
 python_version = "3.7"
